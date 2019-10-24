@@ -24,7 +24,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/Shinkai123/TYHResource.git", :tag => spec.version.to_s }
 
 
-  spec.source_files  = spec.source_files  = "TYHomeMoudle/Classes/*{.swift}"
+  spec.source_files  = spec.source_files  = "TYHBaseResource/Classes/*{.swift}"
 
   spec.dependency 'CTMediator'
 
