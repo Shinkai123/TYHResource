@@ -1,0 +1,6 @@
+framework module Pods_TYHResource {
+  umbrella header "Pods-TYHResource-umbrella.h"
+
+  export *
+  module * { export * }
+}
