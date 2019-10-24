@@ -7,90 +7,163 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		294E04EDB2CDBB19397FBD9BE4C9D9A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		587FDCACF125A3A5245201A9FAADC42A /* Pods-TYHResource-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A20E096791FB1B6A8171A123E55635FF /* Pods-TYHResource-dummy.m */; };
-		6E06A031B49C3ECB73896A6C2388822D /* Pods-TYHResource-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 899EE964DD64AECD6EA67B899BC13693 /* Pods-TYHResource-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02F90B9665B5DC5AACC8CCBD5126B114 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		0AF1ABD0CBD56EA71BF0100CE28B9BC9 /* Pods-TYHResource-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F0AC3A6509540CA182E6C6A0CBFAD1 /* Pods-TYHResource-dummy.m */; };
+		3C143850B2935E66778690E3C6C929A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		685B428DA7903CE09A77661071568C61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		7A47DBE54E38761F7F2884DE0B660712 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE265181E268345F2378FFE48BB1C49 /* CTMediator.m */; };
+		C9D1CB09EE49A82B759B929618586E75 /* CTMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E9A08BB69CFD3550765912BD4DAB9FF /* CTMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7E801D9DE11CC567592A19ECD93B2D6 /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 844EB007D0882EB6D7D94F6E32F4B565 /* CTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E73EEAFFB9533F32313735D9F7B20579 /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17ACD14CA0A8EE59A4E2891AB5D041CF /* CTMediator-dummy.m */; };
+		EC5BE631D6C1A0FA99D888AE11E527DF /* Pods-TYHResource-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8707DB1D53AEDCDC7D3583CEC83AEB16 /* Pods-TYHResource-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		8B557ED488904FF8214020D0ED06690B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
+			remoteInfo = CTMediator;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		296D9736CE75F574108F649D652AA49B /* Pods-TYHResource.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TYHResource.debug.xcconfig"; sourceTree = "<group>"; };
-		2CAB7846F6F80D28C657B8C8514354E1 /* Pods-TYHResource.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TYHResource.modulemap"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5452C44909E6BE130706F3106E28296D /* Pods-TYHResource-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TYHResource-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7014372613A4185239BC375F03279FC6 /* Pods-TYHResource-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TYHResource-acknowledgements.plist"; sourceTree = "<group>"; };
-		899EE964DD64AECD6EA67B899BC13693 /* Pods-TYHResource-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TYHResource-umbrella.h"; sourceTree = "<group>"; };
-		9404E0CD3CD73D13A4E710941A9A69B4 /* Pods-TYHResource.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TYHResource.release.xcconfig"; sourceTree = "<group>"; };
+		0FF6A9C42B46F3F9DDD3B6E1BF3167DF /* Pods-TYHResource-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TYHResource-acknowledgements.markdown"; sourceTree = "<group>"; };
+		17ACD14CA0A8EE59A4E2891AB5D041CF /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
+		1E1F9D3F5598638DAEC0652E749F33E2 /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
+		30AA2DB9C30D3D2E59C5EEAC305B5BFF /* Pods-TYHResource-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TYHResource-acknowledgements.plist"; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3FABF6B72795C12448F5085E17A73DDC /* CTMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.xcconfig; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		48F0AC3A6509540CA182E6C6A0CBFAD1 /* Pods-TYHResource-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TYHResource-dummy.m"; sourceTree = "<group>"; };
+		4E9A08BB69CFD3550765912BD4DAB9FF /* CTMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-umbrella.h"; sourceTree = "<group>"; };
+		68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CTMediator.framework; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FDE435CDF577615B3D6F05B7C455965 /* Pods-TYHResource.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TYHResource.release.xcconfig"; sourceTree = "<group>"; };
+		844EB007D0882EB6D7D94F6E32F4B565 /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = CTMediator/CTMediator/CTMediator.h; sourceTree = "<group>"; };
+		8707DB1D53AEDCDC7D3583CEC83AEB16 /* Pods-TYHResource-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TYHResource-umbrella.h"; sourceTree = "<group>"; };
+		95F3B5F41CAA4DABC5B7E0A324D8A67F /* Pods-TYHResource.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TYHResource.modulemap"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A20E096791FB1B6A8171A123E55635FF /* Pods-TYHResource-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TYHResource-dummy.m"; sourceTree = "<group>"; };
-		B1197ED4568F87E024889C14ED539F4F /* Pods-TYHResource-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TYHResource-Info.plist"; sourceTree = "<group>"; };
+		9EE265181E268345F2378FFE48BB1C49 /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
+		A1D2880A5AE5FBB815448D1775177285 /* Pods-TYHResource-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TYHResource-frameworks.sh"; sourceTree = "<group>"; };
+		C23C00611252C9357DC48711D2198DAA /* CTMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CTMediator.modulemap; sourceTree = "<group>"; };
+		C5294C5DFDFEF87D9DC045D3275A9FEE /* CTMediator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CTMediator-Info.plist"; sourceTree = "<group>"; };
 		DB0A09BF47AF5AE47BFE096F79580453 /* Pods_TYHResource.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TYHResource.framework; path = "Pods-TYHResource.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD87D846158A9D7F941B2BD5FD99280C /* Pods-TYHResource.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TYHResource.debug.xcconfig"; sourceTree = "<group>"; };
+		DF6F6A97C4357C50D57602259EF11240 /* Pods-TYHResource-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TYHResource-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1D35247C0A4D27C02500F36D3C6A0026 /* Frameworks */ = {
+		5D122860E52F7AF1A295D56BD7922605 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				294E04EDB2CDBB19397FBD9BE4C9D9A2 /* Foundation.framework in Frameworks */,
+				02F90B9665B5DC5AACC8CCBD5126B114 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F869CEC17949B9D77FB2EC29F0BAAB2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C143850B2935E66778690E3C6C929A4 /* Foundation.framework in Frameworks */,
+				685B428DA7903CE09A77661071568C61 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1B88F59F569FBB5DDC846926361C8791 /* Pods-TYHResource */ = {
+		063BF7AEE97A9BC416F3E2A92977507A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2CAB7846F6F80D28C657B8C8514354E1 /* Pods-TYHResource.modulemap */,
-				5452C44909E6BE130706F3106E28296D /* Pods-TYHResource-acknowledgements.markdown */,
-				7014372613A4185239BC375F03279FC6 /* Pods-TYHResource-acknowledgements.plist */,
-				A20E096791FB1B6A8171A123E55635FF /* Pods-TYHResource-dummy.m */,
-				B1197ED4568F87E024889C14ED539F4F /* Pods-TYHResource-Info.plist */,
-				899EE964DD64AECD6EA67B899BC13693 /* Pods-TYHResource-umbrella.h */,
-				296D9736CE75F574108F649D652AA49B /* Pods-TYHResource.debug.xcconfig */,
-				9404E0CD3CD73D13A4E710941A9A69B4 /* Pods-TYHResource.release.xcconfig */,
+				2E2592B0A77121680C66567F26904FED /* CTMediator */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E2592B0A77121680C66567F26904FED /* CTMediator */ = {
+			isa = PBXGroup;
+			children = (
+				844EB007D0882EB6D7D94F6E32F4B565 /* CTMediator.h */,
+				9EE265181E268345F2378FFE48BB1C49 /* CTMediator.m */,
+				E14D928A63EDE2B333128F78CA33B7DC /* Support Files */,
+			);
+			name = CTMediator;
+			path = CTMediator;
+			sourceTree = "<group>";
+		};
+		41AF1615CE59E8AC4BE17398A562C48C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E7899E6775A216FE0FC32D23D9A74B8 /* Pods-TYHResource */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9E7899E6775A216FE0FC32D23D9A74B8 /* Pods-TYHResource */ = {
+			isa = PBXGroup;
+			children = (
+				95F3B5F41CAA4DABC5B7E0A324D8A67F /* Pods-TYHResource.modulemap */,
+				0FF6A9C42B46F3F9DDD3B6E1BF3167DF /* Pods-TYHResource-acknowledgements.markdown */,
+				30AA2DB9C30D3D2E59C5EEAC305B5BFF /* Pods-TYHResource-acknowledgements.plist */,
+				48F0AC3A6509540CA182E6C6A0CBFAD1 /* Pods-TYHResource-dummy.m */,
+				A1D2880A5AE5FBB815448D1775177285 /* Pods-TYHResource-frameworks.sh */,
+				DF6F6A97C4357C50D57602259EF11240 /* Pods-TYHResource-Info.plist */,
+				8707DB1D53AEDCDC7D3583CEC83AEB16 /* Pods-TYHResource-umbrella.h */,
+				DD87D846158A9D7F941B2BD5FD99280C /* Pods-TYHResource.debug.xcconfig */,
+				7FDE435CDF577615B3D6F05B7C455965 /* Pods-TYHResource.release.xcconfig */,
 			);
 			name = "Pods-TYHResource";
 			path = "Target Support Files/Pods-TYHResource";
-			sourceTree = "<group>";
-		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		C6A8E92BB1B76DF388C40EF70371C340 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1B88F59F569FBB5DDC846926361C8791 /* Pods-TYHResource */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				D950BB16FE0F2BB3D36B5703A7DBA494 /* Products */,
-				C6A8E92BB1B76DF388C40EF70371C340 /* Targets Support Files */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				063BF7AEE97A9BC416F3E2A92977507A /* Pods */,
+				EF9A8CC1BBFEF264F138ACB2B7033AC3 /* Products */,
+				41AF1615CE59E8AC4BE17398A562C48C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		E14D928A63EDE2B333128F78CA33B7DC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				C23C00611252C9357DC48711D2198DAA /* CTMediator.modulemap */,
+				3FABF6B72795C12448F5085E17A73DDC /* CTMediator.xcconfig */,
+				17ACD14CA0A8EE59A4E2891AB5D041CF /* CTMediator-dummy.m */,
+				C5294C5DFDFEF87D9DC045D3275A9FEE /* CTMediator-Info.plist */,
+				1E1F9D3F5598638DAEC0652E749F33E2 /* CTMediator-prefix.pch */,
+				4E9A08BB69CFD3550765912BD4DAB9FF /* CTMediator-umbrella.h */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/CTMediator";
 			sourceTree = "<group>";
 		};
-		D950BB16FE0F2BB3D36B5703A7DBA494 /* Products */ = {
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EF9A8CC1BBFEF264F138ACB2B7033AC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator.framework */,
 				DB0A09BF47AF5AE47BFE096F79580453 /* Pods_TYHResource.framework */,
 			);
 			name = Products;
@@ -99,29 +172,57 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		8BC0AD0C03BB84BF37C7594393680E08 /* Headers */ = {
+		1405EAD39895AB019BAA914F14C87DAE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E06A031B49C3ECB73896A6C2388822D /* Pods-TYHResource-umbrella.h in Headers */,
+				EC5BE631D6C1A0FA99D888AE11E527DF /* Pods-TYHResource-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60DF3B252E3FD21D667F274BDB81E3CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9D1CB09EE49A82B759B929618586E75 /* CTMediator-umbrella.h in Headers */,
+				D7E801D9DE11CC567592A19ECD93B2D6 /* CTMediator.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		BA0985D3F55222AE2AF802F04F3CF038 /* Pods-TYHResource */ = {
+		6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 146E9DC70516701AB130B77602A18784 /* Build configuration list for PBXNativeTarget "Pods-TYHResource" */;
+			buildConfigurationList = 3369B102FC665E0387F7D83687AA5301 /* Build configuration list for PBXNativeTarget "CTMediator" */;
 			buildPhases = (
-				8BC0AD0C03BB84BF37C7594393680E08 /* Headers */,
-				F588ED993307C9431485345E58DA9D65 /* Sources */,
-				1D35247C0A4D27C02500F36D3C6A0026 /* Frameworks */,
-				0ECED6E7872A9BB1D384D89F6C5A04DF /* Resources */,
+				60DF3B252E3FD21D667F274BDB81E3CA /* Headers */,
+				6743F40045C87906B0BE0456BFE8CEA0 /* Sources */,
+				F869CEC17949B9D77FB2EC29F0BAAB2C /* Frameworks */,
+				400F9571C43C05D59C6D163D02CBC274 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = CTMediator;
+			productName = CTMediator;
+			productReference = 68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BA0985D3F55222AE2AF802F04F3CF038 /* Pods-TYHResource */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8558193F7A829355827A8EAFF7D21EA7 /* Build configuration list for PBXNativeTarget "Pods-TYHResource" */;
+			buildPhases = (
+				1405EAD39895AB019BAA914F14C87DAE /* Headers */,
+				8586DD946C33E192774A85C0329D9C1A /* Sources */,
+				5D122860E52F7AF1A295D56BD7922605 /* Frameworks */,
+				1CDF5A5BB2D158C06F882B1D7D3F7720 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A510A1F7C3E462A6B68CA6447190EDE6 /* PBXTargetDependency */,
 			);
 			name = "Pods-TYHResource";
 			productName = "Pods-TYHResource";
@@ -145,17 +246,25 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = D950BB16FE0F2BB3D36B5703A7DBA494 /* Products */;
+			productRefGroup = EF9A8CC1BBFEF264F138ACB2B7033AC3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */,
 				BA0985D3F55222AE2AF802F04F3CF038 /* Pods-TYHResource */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0ECED6E7872A9BB1D384D89F6C5A04DF /* Resources */ = {
+		1CDF5A5BB2D158C06F882B1D7D3F7720 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		400F9571C43C05D59C6D163D02CBC274 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -165,17 +274,71 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F588ED993307C9431485345E58DA9D65 /* Sources */ = {
+		6743F40045C87906B0BE0456BFE8CEA0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				587FDCACF125A3A5245201A9FAADC42A /* Pods-TYHResource-dummy.m in Sources */,
+				E73EEAFFB9533F32313735D9F7B20579 /* CTMediator-dummy.m in Sources */,
+				7A47DBE54E38761F7F2884DE0B660712 /* CTMediator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8586DD946C33E192774A85C0329D9C1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF1ABD0CBD56EA71BF0100CE28B9BC9 /* Pods-TYHResource-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		A510A1F7C3E462A6B68CA6447190EDE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
+			targetProxy = 8B557ED488904FF8214020D0ED06690B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		1F73A7CF8C7650744ADB7AED524B9F87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FABF6B72795C12448F5085E17A73DDC /* CTMediator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTMediator/CTMediator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
+				PRODUCT_MODULE_NAME = CTMediator;
+				PRODUCT_NAME = CTMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		510B057D2E9F059C50D52DA5D90F3ACF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -300,12 +463,10 @@
 			};
 			name = Debug;
 		};
-		A911F77779DE7D1BBA0CD8E88749FFBD /* Debug */ = {
+		A617BD67FF0669DBCFAA24DC18016AB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 296D9736CE75F574108F649D652AA49B /* Pods-TYHResource.debug.xcconfig */;
+			baseConfigurationReference = 3FABF6B72795C12448F5085E17A73DDC /* CTMediator.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -315,32 +476,31 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TYHResource/Pods-TYHResource-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTMediator/CTMediator-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TYHResource/Pods-TYHResource.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
+				PRODUCT_MODULE_NAME = CTMediator;
+				PRODUCT_NAME = CTMediator;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		C5558B3517E20AEE4A8A76C3C6AF47C8 /* Release */ = {
+		D53D6A8331D27083427CC7FA63B356D3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9404E0CD3CD73D13A4E710941A9A69B4 /* Pods-TYHResource.release.xcconfig */;
+			baseConfigurationReference = 7FDE435CDF577615B3D6F05B7C455965 /* Pods-TYHResource.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -377,14 +537,52 @@
 			};
 			name = Release;
 		};
+		FFEDFA2F0E752819855E33D7989D63F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD87D846158A9D7F941B2BD5FD99280C /* Pods-TYHResource.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TYHResource/Pods-TYHResource-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TYHResource/Pods-TYHResource.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		146E9DC70516701AB130B77602A18784 /* Build configuration list for PBXNativeTarget "Pods-TYHResource" */ = {
+		3369B102FC665E0387F7D83687AA5301 /* Build configuration list for PBXNativeTarget "CTMediator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A911F77779DE7D1BBA0CD8E88749FFBD /* Debug */,
-				C5558B3517E20AEE4A8A76C3C6AF47C8 /* Release */,
+				A617BD67FF0669DBCFAA24DC18016AB8 /* Debug */,
+				1F73A7CF8C7650744ADB7AED524B9F87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -394,6 +592,15 @@
 			buildConfigurations = (
 				804E13245C9FBBE6A340C555CA8B2B4C /* Debug */,
 				510B057D2E9F059C50D52DA5D90F3ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8558193F7A829355827A8EAFF7D21EA7 /* Build configuration list for PBXNativeTarget "Pods-TYHResource" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFEDFA2F0E752819855E33D7989D63F0 /* Debug */,
+				D53D6A8331D27083427CC7FA63B356D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

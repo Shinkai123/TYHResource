@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,9 @@
 		2BFFE2E42361773000010BA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BFFE2E22361773000010BA9 /* LaunchScreen.storyboard */; };
 		2BFFE2ED23617A8700010BA9 /* TYHBaseResource.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 2BFFE2EB23617A8700010BA9 /* TYHBaseResource.podspec */; };
 		2BFFE2F223617B8B00010BA9 /* Extension_TYHImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFFE2F123617B8B00010BA9 /* Extension_TYHImages.swift */; };
+		2BFFE2F723617FA000010BA9 /* Assets_Home.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BFFE2F623617FA000010BA9 /* Assets_Home.xcassets */; };
+		2BFFE30023619B7A00010BA9 /* Target_TYHImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFFE2FF23619B7A00010BA9 /* Target_TYHImages.swift */; };
+		2BFFE30223619CD600010BA9 /* TYHImageHeper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFFE30123619CD600010BA9 /* TYHImageHeper.swift */; };
 		D2717B4E7CB0B12C262C5742 /* Pods_TYHResource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722C4E01EA9C626B1FD7C076 /* Pods_TYHResource.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +33,9 @@
 		2BFFE2E52361773000010BA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BFFE2EB23617A8700010BA9 /* TYHBaseResource.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TYHBaseResource.podspec; sourceTree = "<group>"; };
 		2BFFE2F123617B8B00010BA9 /* Extension_TYHImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension_TYHImages.swift; sourceTree = "<group>"; };
+		2BFFE2F623617FA000010BA9 /* Assets_Home.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets_Home.xcassets; sourceTree = "<group>"; };
+		2BFFE2FF23619B7A00010BA9 /* Target_TYHImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Target_TYHImages.swift; sourceTree = "<group>"; };
+		2BFFE30123619CD600010BA9 /* TYHImageHeper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYHImageHeper.swift; sourceTree = "<group>"; };
 		722C4E01EA9C626B1FD7C076 /* Pods_TYHResource.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TYHResource.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA266616BCA57DA17E43D03B /* Pods-TYHResource.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYHResource.debug.xcconfig"; path = "Target Support Files/Pods-TYHResource/Pods-TYHResource.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,6 +89,7 @@
 		2BFFE2EC23617A8700010BA9 /* TYHBaseResource */ = {
 			isa = PBXGroup;
 			children = (
+				2BFFE2F323617F1E00010BA9 /* Assets */,
 				2BFFE2EE23617AFA00010BA9 /* Classes */,
 			);
 			path = TYHBaseResource;
@@ -100,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				2BFFE2F023617B2900010BA9 /* Extension */,
+				2BFFE2FE23619B5400010BA9 /* Target */,
 			);
 			path = TYHImage;
 			sourceTree = "<group>";
@@ -110,6 +118,31 @@
 				2BFFE2F123617B8B00010BA9 /* Extension_TYHImages.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		2BFFE2F323617F1E00010BA9 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2BFFE2F423617F4100010BA9 /* Assets_Home */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		2BFFE2F423617F4100010BA9 /* Assets_Home */ = {
+			isa = PBXGroup;
+			children = (
+				2BFFE2F623617FA000010BA9 /* Assets_Home.xcassets */,
+			);
+			path = Assets_Home;
+			sourceTree = "<group>";
+		};
+		2BFFE2FE23619B5400010BA9 /* Target */ = {
+			isa = PBXGroup;
+			children = (
+				2BFFE2FF23619B7A00010BA9 /* Target_TYHImages.swift */,
+				2BFFE30123619CD600010BA9 /* TYHImageHeper.swift */,
+			);
+			path = Target;
 			sourceTree = "<group>";
 		};
 		AB3A0E82ED801D064EC0A19E /* Frameworks */ = {
@@ -140,6 +173,7 @@
 				2BFFE2D02361772E00010BA9 /* Sources */,
 				2BFFE2D12361772E00010BA9 /* Frameworks */,
 				2BFFE2D22361772E00010BA9 /* Resources */,
+				8C1B058C2732CB6EA45F8D3B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -192,12 +226,30 @@
 				2BFFE2E12361773000010BA9 /* Assets.xcassets in Resources */,
 				2BFFE2DF2361772E00010BA9 /* Main.storyboard in Resources */,
 				2BFFE2ED23617A8700010BA9 /* TYHBaseResource.podspec in Resources */,
+				2BFFE2F723617FA000010BA9 /* Assets_Home.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		8C1B058C2732CB6EA45F8D3B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TYHResource/Pods-TYHResource-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TYHResource/Pods-TYHResource-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TYHResource/Pods-TYHResource-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C232808FE694161602EFEA93 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -227,9 +279,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BFFE30023619B7A00010BA9 /* Target_TYHImages.swift in Sources */,
 				2BFFE2DC2361772E00010BA9 /* ViewController.swift in Sources */,
 				2BFFE2D82361772E00010BA9 /* AppDelegate.swift in Sources */,
 				2BFFE2DA2361772E00010BA9 /* SceneDelegate.swift in Sources */,
+				2BFFE30223619CD600010BA9 /* TYHImageHeper.swift in Sources */,
 				2BFFE2F223617B8B00010BA9 /* Extension_TYHImages.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
