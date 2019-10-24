@@ -24,7 +24,7 @@ public class TYHImageHeper: NSObject {
             return nil
         }
         let newBundle = Bundle.init(url: url);
-        let img = UIImage.init(named: name, in: newBundle, with: nil)
+        let img = UIImage.init(named: name, in: newBundle, compatibleWith: nil)
         return img
     }
 }
