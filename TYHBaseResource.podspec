@@ -25,24 +25,12 @@ Pod::Spec.new do |spec|
 
 
   spec.source_files = "TYHBaseResource/Classes/**/*{.swift}"
-
-  spec.dependency 'CTMediator'
-  
-  spec.subspec "Extension" do |sp|
-  sp.source_files = 'TYHBaseResource/Classes/TYHImage/Extension/*{.swift}'
-  end
-  
-  spec.subspec "Target" do |sp|
-  sp.source_files = 'TYHBaseResource/Classes/TYHImage/Target/*{.swift}'
-  end
-  
-  spec.subspec "HomeImage" do |sp|
-    sp.resource_bundles = {
+  spec.resource_bundles = {
         'TYHResourceHome' => ['TYHBaseResource/Assets/Assets_Home/**/*']
-    }
-    sp.dependency 'TYHBaseResource/Classes/TYHImage/Extension'
-    sp.dependency 'TYHBaseResource/Classes/TYHImage/Target'
-   end
+    
+   }
+   
+    spec.dependency 'CTMediator'
    
     
 }
