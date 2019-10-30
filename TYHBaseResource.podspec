@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "TYHBaseResource"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.5"
   spec.summary      = "Image resource"
 
   spec.description  = 'a subject of Image resource'
@@ -27,5 +27,24 @@ Pod::Spec.new do |spec|
   spec.source_files = "TYHBaseResource/Classes/**/*{.swift}"
 
   spec.dependency 'CTMediator'
+  
+  spec.subspec "Extension" do |sp|
+  sp.source_files = 'TYHBaseResource/Classes/TYHImage/Extension/*{.swift}'
+  end
+  
+  spec.subspec "Target" do |sp|
+  sp.source_files = 'TYHBaseResource/Classes/TYHImage/Target/*{.swift}'
+  end
+  
+  spec.subspec "HomeImage" do |sp|
+    sp.resource_bundles = {
+        'TYHResourceHome' => ['TYHBaseResource/Assets/Assets_Home/**/*']
+    }
+    sp.dependency 'TYHBaseResource/Classes/TYHImage/Extension'
+    sp.dependency 'TYHBaseResource/Classes/TYHImage/Target'
+   end
+   
+    
+}
 
 end

@@ -9,7 +9,7 @@
 import CTMediator
 
 //模块名称
-let TYHImageModuleName = "TYHBaseResource"
+let TYHImageModuleName = "TYHResource"
 //标识
 let TYHImageName = "TYHImages"
 //获取图片
